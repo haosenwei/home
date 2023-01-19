@@ -40,7 +40,7 @@
     var option;
 
     myChart.showLoading();
-$.get(ROOT_PATH + '/data/asset/data/flare.json', function (data) {
+$.get('/flare.json', function (data) {
   myChart.hideLoading();
   myChart.setOption(
     (option = {
